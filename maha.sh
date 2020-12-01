@@ -2,7 +2,7 @@
 
 
 if [ ! -d "$1" ]; then
-        mkdir -p $dir/$1
+        mkdir -p /root/Recon/$1
 fi
 
 amass enum -passive -norecursive -noalts -d $1 -o /root/Recon/$1/$1.txt
